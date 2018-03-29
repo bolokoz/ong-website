@@ -29,7 +29,6 @@
     </v-toolbar>
     <v-content>
       <v-container>
-        <top-header/>
         <nuxt />
       </v-container>
     </v-content>
@@ -48,9 +47,11 @@
         items: [
           { icon: 'apps', title: 'Welcome', to: '/' },
           { icon: 'bubble_chart', title: 'Blog', to: '/blog' },
+          { icon: 'bubble_chart', title: 'Participe', to: '/participe' },
+          { icon: 'add', title: 'Fazer doação', to: '/doar' },
           { icon: 'bubble_chart', title: 'Sobre o projeto', to: '/sobre' }
         ],
-        title: 'Ong Taal'
+        title: 'Nome Exemplo ONG'
       }
     }
   }
