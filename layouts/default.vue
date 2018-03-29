@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <v-navigation-drawer
       v-model="drawer"
       fixed
@@ -33,28 +33,25 @@
         <nuxt />
       </v-container>
     </v-content>
-    </v-navigation-drawer>
-    <v-footer :fixed="fixed" app>
+
+    <v-footer fixed app>
       <span>&copy; 2017</span>
     </v-footer>
   </v-app>
 </template>
 
 <script>
-  import TopHeader from '~/components/TopHeader.vue'
   export default {
     data () {
       return {
         drawer: false,
         items: [
           { icon: 'apps', title: 'Welcome', to: '/' },
-          { icon: 'bubble_chart', title: 'Blog', to: '/blog' }
+          { icon: 'bubble_chart', title: 'Blog', to: '/blog' },
+          { icon: 'bubble_chart', title: 'Sobre o projeto', to: '/sobre' }
         ],
         title: 'Ong Taal'
       }
-    },
-    components: {
-      TopHeader
     }
   }
 </script>

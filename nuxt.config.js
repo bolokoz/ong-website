@@ -6,9 +6,6 @@ module.exports = {
   modules: [
     ['storyblok-nuxt', {accessToken: 'mG1jTRStKkBBTjTi67S7XAtt', cacheProvider: 'memory'}]
   ],
-  router: {
-    middleware: 'languageDetection'
-  },
   head: {
     title: 'ong',
     meta: [
