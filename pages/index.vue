@@ -2,9 +2,9 @@
   <div id="index">
     <section id="parallax">
         <v-parallax src="elefun.jpg" height="600">
-            <v-layout column align-center class="black--text">
+            <v-layout column align-center justify-center class="black--text">
                 <!-- <img src="pudim.png" height="200"> -->
-                <h1 class="black--text mb-2 display-3 text-xs-center">{{ title }}</h1>
+                <h1 class="black--text mb-2 display-4 text-xs-center">{{ title }}</h1>
                 <div class="display-1 mb-3 text-xs-center">{{ subtitle }}</div>
                 <!-- <v-btn class="blue lighten-2 mt-5" dark large href="/blog">
                     {{ button }}
