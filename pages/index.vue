@@ -1,10 +1,10 @@
 <template>
   <div id="index">
     <section id="parallax">
-        <v-parallax src="elefun.jpg" height="600">
+        <v-parallax src="elefun.jpg" height="500">
             <v-layout column align-center justify-center class="black--text">
                 <!-- <img src="pudim.png" height="200"> -->
-                <h1 class="black--text mb-2 display-4 text-xs-center">{{ title }}</h1>
+                <h1 class="black--text mb-2 display-2 text-xs-center">{{ title }}</h1>
                 <div class="display-1 mb-3 text-xs-center">{{ subtitle }}</div>
                 <!-- <v-btn class="blue lighten-2 mt-5" dark large href="/blog">
                     {{ button }}
@@ -139,7 +139,7 @@
       </section>
 
       <section id="parallax3">
-        <v-parallax src="city.jpg" height="200">
+        <v-parallax src="city.jpg" height="300">
           <v-layout column align-center justify-center>
             <div class="headline white--text mb-3 text-xs-center">Participe</div>
             <em>Veja como ajudar</em>
@@ -166,7 +166,7 @@
             <div class="text-xs-center">
               <h2 class="headline">Últimas notícias</h2>
               <span class="subheading">
-                Veja o que estivemos fazendoOoOoOO através de nosso <v-btn fab to="blog">blog</v-btn>
+                Veja o que estivemos fazendoOoOoOO através de nosso <v-btn flat small to="blog">blog</v-btn>
               </span>
             </div>
 
@@ -186,6 +186,7 @@
         </v-layout>
       </section>
 
+          <v-divider></v-divider>
       <section>
         <v-container grid-list-xl>
           <v-layout row wrap justify-center class="my-5">
