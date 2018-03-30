@@ -4,7 +4,9 @@ module.exports = {
   ** Headers of the page
   */
   modules: [
-    ['storyblok-nuxt', {accessToken: 'mG1jTRStKkBBTjTi67S7XAtt', cacheProvider: 'memory'}]
+    [
+      'storyblok-nuxt', {accessToken: 'mG1jTRStKkBBTjTi67S7XAtt', cacheProvider: 'memory'}
+    ]
   ],
   head: {
     title: 'ong',
